@@ -13,3 +13,4 @@ systemctl start ir_agent.service
 systemctl status ir_agent.service
 
 #sudo sh ./agents-linux/agent_wrapper_installer.sh
+#file=agent_wrapper_installer.sh; curl -OL https://github.com/rstriklwlg/Install/raw/master/agents-linux/$file; chmod +x $file; sudo sh $file
